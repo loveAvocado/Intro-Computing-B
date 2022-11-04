@@ -35,6 +35,7 @@ int main () {
                     }               
                 }                
             }
+            
             int start = FALSE;
             for (k=MAX;k>=0;k--){
                 if (start==TRUE){
