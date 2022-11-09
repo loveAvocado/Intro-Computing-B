@@ -23,14 +23,18 @@ int main () {
             matrix2[j][i] = matrix1[i][j];
         }
     }
-
-
     for (i=0;i<row;i++){
-        for (j=0;j<col;j++)
-            if (j<row-1)
-                printf("%d ",matrix1[j][i]);
-            else printf("%d\n",matrix1[j][i]);
+        for (j=0;j<col;j++){
+            printf("%d ",)
+        }
     }
+
+    // for (i=0;i<row;i++){
+    //     for (j=0;j<col;j++)
+    //         if (j<row-1)
+    //             printf("%d ",matrix1[j][i]);
+    //         else printf("%d\n",matrix1[j][i]);
+    // }
     return 0;
 
 }
