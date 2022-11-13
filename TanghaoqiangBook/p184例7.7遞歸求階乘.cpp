@@ -10,7 +10,7 @@ int main (){
 }
 
 int factorial(unsigned int n){
-	if (n <= 1) return n;
+	if (n <= 1) return 1;
 	else n *= factorial(n-1);
 	return n;
 }
