@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+void Prime(int);
 /*
 要求，输入1个大于1的整数，输出其所有质因数。格式为
 输入： 20；
@@ -12,6 +13,11 @@ int main () {
         cout << "请输入一个大于1的整数。"<< endl;
         return 0;
     }
+    Prime(n);
+    return 0;
+}
+
+void Prime(int n){
     int n1 = n; //用于while循环。
     int i=2; //最小质数为2，因此分解质因数时从2开始。
     cout << n<<'=';
@@ -28,5 +34,4 @@ int main () {
         }   
     }
     cout << endl;
-    return 0;
 }
