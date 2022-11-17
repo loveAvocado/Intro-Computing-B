@@ -21,7 +21,7 @@ void Prime(int n){
     int n1 = n; //用于while循环。
     int i=2; //最小质数为2，因此分解质因数时从2开始。
     cout << n<<'=';
-    int prod = 1;
+    int prod = 1; 
     while (i<=n1){
         if (n % i == 0){
             prod *= i;
